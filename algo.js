@@ -1,12 +1,12 @@
 // The length of the sentence (the number of characters)
 function getLength(string) {
-  var str = new String("Hello World! I am Plucky, and a proud FullStack Developer.");
+  var str = new String("Hello World! I am Maria, a FullStack Developer.");
 
   return str.length;
 }
 document.write(
   "The length of the sentence character -" +
-    "Hello World! I am Plucky, and a proud FullStack Developer.:" +
+    "Hello World! I am Maria, a FullStack Developer.:" +
     getLength("")
 );
 document.write("<br>");
@@ -21,8 +21,8 @@ function countWords(str) {
 }
 document.write(
   "The Number of words in the sentence -" +
-    "Hello World! I am Plucky, and a proud FullStack Developer.:" +
-    countWords("Hello World! I am Plucky, and a proud FullStack Developer.")
+    "Hello World! I am Maria, a FullStack Developer.:" +
+    countWords("Hello World! I am Maria, a FullStack Developer.")
 );
 document.write("<br>");
 
@@ -39,6 +39,6 @@ function getVowels(string) {
 }
 document.write(
   "The Number of vowels in -" +
-    " Hello World! I am Plucky, and a proud FullStack Developer.:" +
-    getVowels("Hello World! I am Plucky, and a proud FullStack Developer.")
+    " Hello World! I am Maria, a FullStack Developer.:" +
+    getVowels("Hello World! I am Maria, a FullStack Developer.")
 );
